@@ -1,12 +1,12 @@
 name: Doctests
 
 on:
-  push:
-    branches:
-      - doctest*
-  repository_dispatch:
-  schedule:
-    - cron: "0 2 * * *"
+#   push:
+#     branches:
+#       - doctest*
+#   repository_dispatch:
+#   schedule:
+#     - cron: "0 2 * * *"
 
 
 env:
